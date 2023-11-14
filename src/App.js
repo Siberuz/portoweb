@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CustomBanner from "./Components/Banner";
+
+import CustomNavbar2 from "./Components/Navbar2";
+import "bootstrap/dist/css/bootstrap.min.css";
+import CustomSkills from "./Components/Skills";
+import CustomProject from "./Components/Project";
+import CustomFooter from "./Components/Footer";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Fairuz.</title>
+        <link rel="canonical" href="http://siberuz.github.io/portoweb" />
+      </Helmet>
+      <CustomNavbar2 />
+      <CustomBanner />
+      <CustomSkills />
+      <CustomProject />
+      <CustomFooter />
+    </>
   );
 }
 
