@@ -4,6 +4,7 @@ import githublogo from "../asset/github-logo.svg";
 import behancelogo from "../asset/behance-logo.svg";
 import linkedinlogo from "../asset/linkedin-logo.svg";
 import homeimg from "../asset/header-foto.svg";
+import cv2 from "../document/cv2.pdf";
 
 export default function CustomBanner() {
   const [loopNum, setLoopNum] = useState(0);
@@ -70,9 +71,9 @@ export default function CustomBanner() {
               endeavors.
             </p>
             <div className="button-cv">
-              <button onClick={() => console.log("masuk cuy!!")}>
-                Download CV
-              </button>
+              <a href={cv2} target="blank">
+                <button>Download CV</button>
+              </a>
             </div>
             <div className="icon-social">
               <a href="https://github.com/Siberuz">
