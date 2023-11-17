@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portoweb/static/css/main.f3e92e0a.css",
-    "main.js": "/portoweb/static/js/main.e073cba0.js",
+    "main.js": "/portoweb/static/js/main.1d345b77.js",
     "static/js/787.52285363.chunk.js": "/portoweb/static/js/787.52285363.chunk.js",
     "static/media/rostyslav-savchyn-OG9Ll1uZEPo-unsplash.jpg": "/portoweb/static/media/rostyslav-savchyn-OG9Ll1uZEPo-unsplash.1d7bd0c5ec4b63bd4f20.jpg",
     "static/media/projects-1-porto.jpg": "/portoweb/static/media/projects-1-porto.f8430ed14edb0437d8b9.jpg",
@@ -28,11 +28,11 @@
     "static/media/logos_figma.svg": "/portoweb/static/media/logos_figma.b41f0189881b2ae7ac52fc89a38e180f.svg",
     "index.html": "/portoweb/index.html",
     "main.f3e92e0a.css.map": "/portoweb/static/css/main.f3e92e0a.css.map",
-    "main.e073cba0.js.map": "/portoweb/static/js/main.e073cba0.js.map",
+    "main.1d345b77.js.map": "/portoweb/static/js/main.1d345b77.js.map",
     "787.52285363.chunk.js.map": "/portoweb/static/js/787.52285363.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3e92e0a.css",
-    "static/js/main.e073cba0.js"
+    "static/js/main.1d345b77.js"
   ]
 }
